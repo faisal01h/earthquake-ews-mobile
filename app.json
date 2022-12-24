@@ -22,7 +22,9 @@
       [
         "expo-notifications",
         {
-          "sounds": ["./assets/sounds/ewsalert.ogg"]
+          "sounds": [
+            "./assets/sounds/ewsalert.ogg"
+          ]
         }
       ]
     ],
@@ -41,6 +43,11 @@
     "web": {
       "favicon": "./assets/images/icon-128.png"
     },
-    "description": "Aplikasi Sistem Peringatan Dini Gempa Bumi berdasarkan data dari BMKG."
+    "description": "Aplikasi Sistem Peringatan Dini Gempa Bumi berdasarkan data dari BMKG.",
+    "extra": {
+      "eas": {
+        "projectId": "fbecb392-3321-4c92-861f-b2aabd2a11b9"
+      }
+    }
   }
 }

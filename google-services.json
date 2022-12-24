@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626940610322",
+    "project_id": "ews-saa",
+    "storage_bucket": "ews-saa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626940610322:android:1555f06fdb1ff3a22c55cb",
+        "android_client_info": {
+          "package_name": "com.faisal01h.saaewsmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626940610322-2gnqovt4qtd450sfmts074hu33ielcls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIKPx9ds4mLYUYEhGJ-dFavFzSZT-Q1gA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626940610322-2gnqovt4qtd450sfmts074hu33ielcls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
