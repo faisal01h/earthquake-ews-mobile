@@ -13,13 +13,13 @@ export default function App() {
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
 
-  registerNNPushToken(2718, 'qGDiXFbpu7a3yFw3Tavxp7');
+  registerNNPushToken(5409, 'VbrP5i0Ia09jSw2cwMZSEG');
 
   Notifications.setNotificationHandler({
     handleNotification: async () => ({
       shouldShowAlert: true,
       shouldPlaySound: true,
-      shouldSetBadge: false,
+      shouldSetBadge: true,
     }),
   });
 

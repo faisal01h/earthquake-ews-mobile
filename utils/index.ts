@@ -1,8 +1,8 @@
 export type QuakeData = {
-    time: Date,
+    datetime: Date,
     magnitude: number,
     coordinate: Array<any>,
-    text: string,
+    wilayah: string,
     depth: string,
     tsunami: boolean | null,
     Shakemap: string | null

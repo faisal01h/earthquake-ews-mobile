@@ -20,7 +20,7 @@ export default function TabTwoScreen() {
         let i = 0;
         e.data.record.forEach((f:QuakeData) => {
           f.coordinate = e.data.record[i].coordinate.split(",");
-          f.time = new Date(f.time)
+          f.datetime = new Date(f.datetime)
           i++;
         })
         setRecord(e.data.record.reverse());
@@ -69,8 +69,8 @@ export default function TabTwoScreen() {
                   }
                 </Text>
                 <View style={tw`px-3 bg-transparent`}>
-                  <Text>{e.time.getDate()} {month[e.time.getMonth()]} {e.time.getFullYear()} pukul {twoDigits(e.time.getHours())}:{twoDigits(e.time.getMinutes())}</Text>
-                  <Text style={tw`flex w-3/4 flex-wrap`}>{`${e.text}`}</Text>
+                  <Text>{e.datetime.getDate()} {month[e.datetime.getMonth()]} {e.datetime.getFullYear()} pukul {twoDigits(e.datetime.getHours())}:{twoDigits(e.datetime.getMinutes())}</Text>
+                  <Text style={tw`flex w-3/4 flex-wrap`}>{`${e.wilayah}`}</Text>
                   <Text>Kedalaman {e.depth}</Text>
                   <Text>{e.coordinate[0]}, {e.coordinate[1]}</Text>
                 </View>
